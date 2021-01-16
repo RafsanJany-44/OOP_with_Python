@@ -1,1 +1,4 @@
-print("hello sir")
+import dictRysan as raf
+
+raf.show_def()
+
