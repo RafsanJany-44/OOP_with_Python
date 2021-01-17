@@ -22,12 +22,12 @@ class Scanner:
         return "Scanning Images is an objective."
 
 
-#this is our third model or class
+# this is our third model or class
 class Printer:
     def printing_docs(self):
         return "Printing Documents is an objective."
 
-    def Printing_img(self):
+    def printing_img(self):
         return "Printing Images is an objective."
 
 
@@ -43,16 +43,24 @@ class Printer:
  
 '''
 
-
 # buying the 2 desktop
-desktop1=Desktop()    #Desktop 1 has been created according to its Bluprint
-desktop2=Desktop()    #Desktop 2 has been created according to its Bluprint
+desktop1 = Desktop()  # Desktop 1 has been created according to its Blueprint
+desktop2 = Desktop()  # Desktop 2 has been created according to its Blueprint
 
-print("Desktop1 : ",desktop1.deployment()) #Desktop 1 is doing his job
+print("Desktop1 : ", desktop1.deployment())  # Desktop 1 is doing his job
 
-print("Desktop2 : ",desktop2.graphics_design()) #Desktop 2 is doing his job
+print("Desktop2 : ", desktop2.graphics_design())  # Desktop 2 is doing his job
 
-#lets do somting with else with this two desktops
+# lets do someting else with this two desktops
 
-print("Desktop1: ",desktop1.data_sotre())   # Desktop1 is doing another work
-print("Desktop2: ",desktop2.playing_game()) # Desktop1 is doing another work
+print("Desktop1: ", desktop1.data_sotre())  # Desktop1 is doing another work
+print("Desktop2: ", desktop2.playing_game())  # Desktop1 is doing another work
+
+# now lets add your scanner and printer
+scanner = Scanner()  # scanner has been created according to its Blueprint
+printer = Printer()  # printer has been created according to its Blueprint
+
+print("Scanner : ", scanner.scanning_img())  # scanner 2 is doing his job
+print("Printer : ", printer.printing_img())  # printer is doing his job
+# and you can also do the other objectives with this scanner and printer,
+
