@@ -64,3 +64,21 @@ print("Scanner : ", scanner.scanning_img())  # scanner 2 is doing his job
 print("Printer : ", printer.printing_img())  # printer is doing his job
 # and you can also do the other objectives with this scanner and printer,
 
+"""
+Did you find out why we need Object? Till not? ok, Now think again, you need
+2 more desktop with same congif and same objectives. What will you do? You just ask
+your friend to provide you.
+"""
+
+#lest have to more desktops
+
+desktop3=Desktop()
+desktop4=Desktop()
+
+"""So easy or not? you have same 4 objectives with this two desktops.  In this way
+You can alos add more scanners and printers. And this the power of object. A real
+life problem in coding scenario. The qsn might be appereard in your head. Why? When?
+Where?
+Why we need this object oriented theorem and When and also Where? Believe me, 
+just have a cristal clear basic about object. I will answer all of your qsn. Just
+ensure that, YOU KNOW OBJECT AND CLASS FROM REAL LIFE TO CODING SCENARIO"""
