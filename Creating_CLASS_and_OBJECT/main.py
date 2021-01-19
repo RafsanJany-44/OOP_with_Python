@@ -65,3 +65,10 @@ print(Desktop.graphics_design(0))
 #So it will erase all data when ever it
 # will be re-called. So this why we need object to
 # get memory inside ram
+
+
+# you cane make object of other classes
+
+printer1=Printer()
+
+print(printer1.printing_docs())
