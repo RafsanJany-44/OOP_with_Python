@@ -33,7 +33,7 @@ class Printer:
 
 '''
 
-suppose you need 2 desktop, 1 scanners, 1 printers for different perposes....
+suppose you need 2 desktop, 1 scanners, 1 printers for different purposes....
 
 (we know we can do also other three objectives with each desktop)
 
@@ -77,10 +77,14 @@ your friend to provide you.
 desktop3=Desktop()
 desktop4=Desktop()
 
-"""So easy or not? you have same 4 objectives with this two desktops.  In this way
+"""
+
+So easy or not? you have same 4 objectives with this two desktops.  In this way
 You can also add more scanners and printers. And this the power of object. A real
 life problem in coding scenario. The qsn might be appeared in your head.
 
 Why we need this object oriented theorem and When and also Where? Believe me, OOP is a beauty. 
 Just have a cristal clear basic about object and class. I will answer all of your qsn. Just
-ensure that, YOU KNOW OBJECT AND CLASS FROM REAL LIFE TO CODING SCENARIO"""
+ensure that, YOU KNOW OBJECT AND CLASS FROM REAL LIFE TO CODING SCENARIO
+
+"""
