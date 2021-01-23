@@ -35,8 +35,6 @@ class Printer:
 
 suppose you need 2 desktop, 1 scanners, 1 printers for different purposes....
 
-(we know we can do also other three objectives with each desktop)
-
 
 what will you do? you have to buy whose machines and your friend has the 
 blueprint.He can provide that.
@@ -44,24 +42,28 @@ blueprint.He can provide that.
 '''
 
 # buying the 2 desktop
-desktop1 = Desktop()  # Desktop 1 has been created according to its Blueprint
-desktop2 = Desktop()  # Desktop 2 has been created according to its Blueprint
+desktop1 = Desktop()                                # Desktop 1 has been created according to its Blueprint
 
-print("Desktop1 : ", desktop1.deployment())  # Desktop 1 is doing his job
+desktop2 = Desktop()                                # Desktop 2 has been created according to its Blueprint
 
-print("Desktop2 : ", desktop2.graphics_design())  # Desktop 2 is doing his job
+print("Desktop1 : ", desktop1.deployment())         # Desktop 1 is doing his job
 
-# lets do something else with this two desktops
+print("Desktop2 : ", desktop2.graphics_design())    # Desktop 2 is doing his job
 
-print("Desktop1: ", desktop1.data_sotre())  # Desktop1 is doing another work
-print("Desktop2: ", desktop2.playing_game()) # Desktop1 is doing another work
+                                                    # lets do something else with this two desktops
+
+print("Desktop1: ", desktop1.data_sotre())          # Desktop1 is doing another work
+print("Desktop2: ", desktop2.playing_game())        # Desktop1 is doing another work
 
 # now lets add your scanner and printer
-scanner = Scanner()  # scanner has been created according to its Blueprint
-printer = Printer()  # printer has been created according to its Blueprint
 
-print("Scanner : ", scanner.scanning_img())  # scanner 2 is doing his job
-print("Printer : ", printer.printing_img())  # printer is doing his job
+scanner = Scanner()                                 # scanner has been created according to its Blueprint
+
+printer = Printer()                                 # printer has been created according to its Blueprint
+
+print("Scanner : ", scanner.scanning_img())         # scanner 2 is doing his job
+
+print("Printer : ", printer.printing_img())         # printer is doing his job
 # and you can also do the other objectives with this scanner and printer,
 
 """
@@ -72,10 +74,16 @@ your friend to provide you.
 
 """
 
-#lest have to more desktops
+#lets have to more desktops
 
 desktop3=Desktop()
+
 desktop4=Desktop()
+
+print("Desktop3 : ", desktop3.deployment())
+
+print("Desktop4 : ", desktop4.graphics_design())
+
 
 """
 
