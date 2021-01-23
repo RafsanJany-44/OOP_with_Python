@@ -79,8 +79,8 @@ desktop4=Desktop()
 
 """So easy or not? you have same 4 objectives with this two desktops.  In this way
 You can also add more scanners and printers. And this the power of object. A real
-life problem in coding scenario. The qsn might be appereard in your head. Why? When?
-Where?
-Why we need this object oriented theorem and When and also Where? Believe me, 
-just have a cristal clear basic about object. I will answer all of your qsn. Just
+life problem in coding scenario. The qsn might be appeared in your head.
+
+Why we need this object oriented theorem and When and also Where? Believe me, OOP is a beauty. 
+Just have a cristal clear basic about object and class. I will answer all of your qsn. Just
 ensure that, YOU KNOW OBJECT AND CLASS FROM REAL LIFE TO CODING SCENARIO"""
